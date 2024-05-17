@@ -125,13 +125,11 @@ ol {
   text-align: center;
 }
 
-.our-team-img {
-}
 .our-portfolio {
   background-color: #ffffff;
   text-transform: capitalize;
 }
-.our-portfolio-item {
+.our-team-list {
   background-color: #ffffff;
 }
 .our-team-subtitle,
