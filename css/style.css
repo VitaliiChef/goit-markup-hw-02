@@ -29,6 +29,9 @@ ol {
 .header-logo-part {
   color: #2e2f42;
 }
+.header-contacts {
+  font-style: normal;
+}
 
 .header-title {
   font-weight: 500;
@@ -37,13 +40,17 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.header-link {
+  color: #2e2f42;
+}
+
 .header-link:hover,
-.header-link:active,
 .header-link:focus,
-.contacts-link:hover,
+.header-link:active,
 .contacts-link:active,
+.contacts-link:hover,
 .contacts-link:focus {
-  color: tomato;
+  color: #404bbf;
 }
 .contacts-link {
   font-size: 16px;
@@ -60,9 +67,16 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+}
+.header-headline {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #404bbf;
 }
 .main-btn {
   font-weight: 500;
@@ -113,6 +127,10 @@ ol {
 /* --------------------- */
 /* -------OUR-TEAM-------  */
 
+.our-team {
+  background-color: #f4f4fd;
+  text-transform: capitalize;
+}
 .our-team-title,
 .our-portfolio-title {
   font-weight: 700;
@@ -130,6 +148,10 @@ ol {
 .our-team-img {
   width: 264px;
   height: 260px;
+}
+.our-portfolio {
+  background-color: #ffffff;
+  text-transform: capitalize;
 }
 .our-team-subtitle,
 .our-portfolio-subtitle {
