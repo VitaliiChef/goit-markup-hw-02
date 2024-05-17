@@ -70,8 +70,6 @@ ol {
 }
 .header-headline {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 
 .main-btn:hover,
@@ -86,29 +84,11 @@ ol {
   color: #fff;
   cursor: pointer;
   text-align: center;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
-  border-radius: 4px;
-  padding: 16px;
-  width: 169px;
-  height: 56px;
   border: none;
 }
 /* --------------------- */
 /* -------FEATURES-------  */
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 .features-subtitle {
   font-weight: 500;
@@ -146,12 +126,13 @@ ol {
 }
 
 .our-team-img {
-  width: 264px;
-  height: 260px;
 }
 .our-portfolio {
   background-color: #ffffff;
   text-transform: capitalize;
+}
+.our-portfolio-item {
+  background-color: #ffffff;
 }
 .our-team-subtitle,
 .our-portfolio-subtitle {
@@ -171,8 +152,6 @@ ol {
 
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
 }
 .footer-logo {
   color: #4d5ae5;
